@@ -1,0 +1,119 @@
+/* Style the admin page8*/
+.admin-page {
+    padding: 20px;
+}
+
+/* Style the admin heading */
+/* .admin-heading {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 0; /* Remove top margin to avoid pushing content down */
+    /* margin-bottom: 0; Remove bottom margin to avoid pushing content down
+    color: white;
+    background-color: rgba(0, 20, 220, 1); Ensure background color is the same as the container
+    padding: 10px; Add some padding
+    position: sticky;
+    top: 0;
+    z-index: 700;  
+    width: 100%; 
+} */ */
+
+/* Style the admin container */
+.admin-container {
+    padding: 20px;
+    max-width: 100%;
+    overflow-x: auto;
+    background-color: #f9f9f9;
+}
+
+/* Style the table container */
+.table-container {
+    overflow-x: auto;
+    max-width: 100%;
+}
+
+/* Style the table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+/* Style the table header */
+/* thead th {
+    background-color: #f4f4f4;
+    position: sticky;
+    top: 0px; /* Adjust this value to match the height of the header */
+    /* z-index: 11; Ensure it stays above other elements 
+}
+*/
+
+
+/* Style the table cells */
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+/* Alternate row colors */
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Hover effect for rows */
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Ensure the table doesn't overflow its container */
+.table-container table {
+    width: 100%;
+    overflow: hidden;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+    .table-container {
+        width: 100%;
+        overflow-x: auto;
+    }
+
+    table {
+        width: 100%;
+    }
+}
+
+/* Style the header */
+header {
+    position: sticky; 
+    top: 0; /* Stick to the top of the viewport */
+    left: 0; /* Spread across the left side */
+    right: 0; /* Spread across the right side */
+    z-index: 1000; /* Ensure it stays above other elements */
+    width: 100%; /* Full width */
+
+} 
+/* Style the admin heading */
+.admin-heading {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 0; /* Remove top margin to avoid pushing content down */
+    margin-bottom: 0; /* Remove bottom margin to avoid pushing content down */
+    color: white;
+    background-color: rgba(0, 20, 220, 1); /* Ensure background color is the same as the container */
+    padding: 10px; /* Add some padding */
+    width: 100%; /* Full width */
+    /* top: 1100px */
+
+}
+ 
+/* Style the table header */
+thead th {
+    background-color: #f4f4f4;
+    position: sticky;
+    top: 0px; /* Adjust this value to match the height of the admin heading */
+    z-index: 1100; /* Ensure it stays above the admin heading */
+}

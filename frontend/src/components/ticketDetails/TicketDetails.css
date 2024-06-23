@@ -1,0 +1,22 @@
+.ticket-details {
+    padding: 20px;
+    background-color: #fff;
+    max-width: 800px;
+    margin: 0 auto;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.ticket-details h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.ticket-details p {
+    font-size: 1rem;
+    margin: 10px 0;
+}
+
+.ticket-details p strong {
+    font-weight: bold;
+}
